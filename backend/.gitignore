@@ -1,0 +1,6 @@
+.env
+pytest.ini
+requirements-local.txt
+requirements.txt
+.venv
+tests

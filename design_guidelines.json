@@ -1,0 +1,127 @@
+{
+  "project_name": "Nirman Projects Group - Premium Corporate Construction & Infrastructure Frontend",
+  "archetype": "THE PERFORMANCE PRO / SWISS INDUSTRIAL",
+  "theme": {
+    "primary_color": "#0F172A",
+    "secondary_color": "#F97316",
+    "accent_color": "#EA580C",
+    "background_light": "#F8FAFC",
+    "background_dark": "#0B192C",
+    "text_primary": "#0F172A",
+    "text_muted": "#64748B",
+    "border_color": "#E2E8F0"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "DM Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "sizes": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-none",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base text-slate-600 leading-relaxed",
+      "caption": "text-xs font-mono uppercase tracking-widest text-slate-500"
+    }
+  },
+  "pages": [
+    {
+      "name": "HOME",
+      "path": "/",
+      "sections": [
+        "Top utility bar with English/Hindi toggle & quick contact",
+        "Sticky Navigation bar with Logo, Nav links, & Request Quote CTA",
+        "Hero section with dynamic background image, bold punch headline, stat counters, and dual CTAs",
+        "Company Introduction with blueprint pattern accent and key pillars",
+        "Services Overview grid (Civil, Electrical, Material Supply, Government Projects, Plumbing, Carpentry, UPS)",
+        "Key Projects Showcase with filter tabs (Ongoing vs Completed)",
+        "Why Choose Us / Technical Competence & Equipment Matrix",
+        "Company Live Statistics (sq. ft. built, ongoing sites, workforce, zero-accident hours)",
+        "Client Testimonials & Feedback Carousel",
+        "Contact CTA Banner with emergency site support line",
+        "Corporate Footer with full page links, address, and legal disclaimers"
+      ]
+    },
+    {
+      "name": "ABOUT",
+      "path": "/about",
+      "sections": [
+        "Corporate History & Vision",
+        "Mission & Core Values",
+        "Management Leadership Team Cards (CMD Asif Ali, Manager Soheb Akhtar, Operations Manager TBD)",
+        "Quality & Safety Certifications (Clearly marked as verification placeholders)",
+        "Infrastructure & Fleet Capabilities"
+      ]
+    },
+    {
+      "name": "SERVICES",
+      "path": "/services",
+      "sections": [
+        "Civil Construction & Structural Engineering",
+        "Electrical Work & High-Voltage Systems",
+        "Raw Material Supply & Procurement Logistics",
+        "Government Infrastructure & Heavy Civil Works",
+        "Residential & Commercial Turnkey Construction",
+        "Industrial Plumbing & Piping Networks",
+        "Custom Architectural Carpentry & Formwork",
+        "UPS, Industrial Panels & Power Backup Solutions"
+      ]
+    },
+    {
+      "name": "PROJECTS",
+      "path": "/projects",
+      "sections": [
+        "Interactive Filterable Project Grid (All, Ongoing, Completed, Civil, Electrical, Government)",
+        "Modal View for detailed project specs, site coordinates, and delivery timeline",
+        "Project Inquiry Form"
+      ]
+    },
+    {
+      "name": "CLIENTS",
+      "path": "/clients",
+      "sections": [
+        "Client Portfolio Showcase with sector filtering",
+        "Client Partner Logos Grid (Marked with [Partner Project Placeholder] for authenticity)",
+        "Client Testimonial Case Studies"
+      ]
+    },
+    {
+      "name": "CAREERS",
+      "path": "/careers",
+      "sections": [
+        "Life at Nirman Projects Group & Work Culture",
+        "Current Openings List (Site Engineer, Electrical Supervisor, Safety Officer, Procurement Specialist)",
+        "Job Application Modal with Resume upload placeholder & interactive form"
+      ]
+    },
+    {
+      "name": "CONTACT",
+      "path": "/contact",
+      "sections": [
+        "Interactive Contact Form with service selection & validation",
+        "Direct Contact Cards (Phone, Email, Regional Office Address, Emergency Site Helpline)",
+        "Interactive Google Map location placeholder",
+        "WhatsApp Direct Chat Button"
+      ]
+    }
+  ],
+  "image_urls": {
+    "hero_construction": "https://images.unsplash.com/photo-1591955506264-3f5a6834570a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHw0fHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBlbmdpbmVlciUyMHNreXNjcmFwZXIlMjBidWlsZHxlbnwwfHx8fDE3OTQwNTQyNTV8MA&ixlib=rb-4.1.0&q=85",
+    "civil_building": "https://images.unsplash.com/photo-1536895058696-a69b1c7ba34f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwyfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBlbmdpbmVlciUyMHNreXNjcmFwZXIlMjBidWlsZHxlbnwwfHx8fDE3OTQwNTQyNTV8MA&ixlib=rb-4.1.0&q=85",
+    "skyscraper_cranes": "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwzfHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBlbmdpbmVlciUyMHNreXNjcmFwZXIlMjBidWlsZHxlbnwwfHx8fDE3OTQwNTQyNTV8MA&ixlib=rb-4.1.0&q=85",
+    "electrical_panel": "https://images.unsplash.com/photo-1758101755915-462eddc23f57?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxlbGVjdHJpY2FsJTIwaW5zdGFsbGF0aW9uJTIwaW5kdXN0cmlhbCUyMHBhbmVsJTIwZWxlY3RyaWNpYW4lMjB3b3JrZXJ8ZW58MHx8fHwxNzk0MDU0MjU1fDA&ixlib=rb-4.1.0&q=85",
+    "electrical_wiring": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxlbGVjdHJpY2FsJTIwaW5zdGFsbGF0aW9uJTIwaW5kdXN0cmlhbCUyMHBhbmVsJTIwZWxlY3RyaWNpYW4lMjB3b3JrZXJ8ZW58MHx8fHwxNzk0MDU0MjU1fDA&ixlib=rb-4.1.0&q=85",
+    "ups_electrical": "https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxlbGVjdHJpY2FsJTIwaW5zdGFsbGF0aW9uJTIwaW5kdXN0cmlhbCUyMHBhbmVsJTIwZWxlY3RyaWNpYW4lMjB3b3JrZXJ8ZW58MHx8fHwxNzk0MDU0MjU1fDA&ixlib=rb-4.1.0&q=85",
+    "bridge_infrastructure": "https://images.unsplash.com/photo-1773638381233-6231cfaf85a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxoZWF2eSUyMGNpdmlsJTIwZW5naW5lZXJpbmclMjBlcXVpcG1lbnQlMjBicmlkZ2UlMjByb2FkJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc5NDA1NDI1NXww&ixlib=rb-4.1.0&q=85",
+    "highway_construction": "https://images.unsplash.com/photo-1782854302183-a13c59920896?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHw0fHxoZWF2eSUyMGNpdmlsJTIwZW5naW5lZXJpbmclMjBlcXVpcG1lbnQlMjBicmlkZ2UlMjByb2FkJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc5NDA1NDI1NXww&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Build a complete multi-page React application for Nirman Project Group using react-router-dom.",
+    "Implement English and Hindi language toggle with state management so text seamlessly switches between English and Hindi.",
+    "Include management team cards: GM Ashif Ali, Manager Soeb Aktar, and Operations Manager Nausad (Rajan).",
+    "Ensure client logos and government project stats are labeled with clear verification/placeholder badges per user requirements (NO fake claims).",
+    "All buttons, inputs, tabs, and links MUST include unique data-testid attributes.",
+    "Use Lucide icons (HardHat, Zap, Building2, Truck, Wrench, ShieldCheck, Phone, Mail, Globe, CheckCircle2, FileText, Users) extensively.",
+    "Integrate Sonner for form toast notifications (quote requests, career applications, contact form submission).",
+    "Include a floating WhatsApp direct action button fixed at the bottom right of the screen."
+  ]
+}

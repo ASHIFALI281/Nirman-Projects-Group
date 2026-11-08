@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 210 40% 98%;
+        --foreground: 216 68% 13%;
+        --card: 0 0% 100%;
+        --card-foreground: 216 68% 13%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 216 68% 13%;
+        --primary: 216 68% 13%;
+        --primary-foreground: 0 0% 100%;
+        --secondary: 210 40% 96%;
+        --secondary-foreground: 216 68% 13%;
+        --muted: 210 40% 96%;
+        --muted-foreground: 215 16% 47%;
+        --accent: 25 95% 53%;
+        --accent-foreground: 0 0% 100%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 214 32% 91%;
+        --input: 214 32% 88%;
+        --ring: 25 95% 53%;
+        --radius: 0.25rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        @apply bg-background text-foreground font-body antialiased;
+    }
+    html[lang="hi"] body {
+        font-family: "Noto Sans Devanagari", "DM Sans", sans-serif;
+    }
+    h1, h2, h3, h4 {
+        @apply font-display;
+    }
+    html[lang="hi"] h1, html[lang="hi"] h2, html[lang="hi"] h3 {
+        font-family: "Noto Sans Devanagari", "Outfit", sans-serif;
+    }
+    ::selection {
+        background: #F97316;
+        color: #fff;
+    }
+}
+
+@layer components {
+    .eyebrow {
+        @apply inline-flex items-center gap-3 font-mono text-xs uppercase tracking-[0.25em] text-ember-600;
+    }
+    html[lang="hi"] .eyebrow {
+        @apply tracking-normal text-sm;
+    }
+    .eyebrow::before {
+        content: "";
+        @apply block h-[2px] w-8 bg-ember;
+    }
+    .blueprint {
+        background-image:
+            linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+    .blueprint-light {
+        background-image:
+            linear-gradient(rgba(11,31,58,0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(11,31,58,0.05) 1px, transparent 1px);
+        background-size: 40px 40px;
+    }
+    .ph-badge {
+        @apply inline-flex items-center gap-1 rounded-sm border border-dashed border-ember px-2 py-0.5 font-mono text-[10px] uppercase tracking-widest text-ember-600 bg-ember/5;
+    }
+    .img-zoom img {
+        transition: transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+    }
+    .img-zoom:hover img {
+        transform: scale(1.06);
+    }
+    .nav-link {
+        @apply relative text-sm font-medium text-navy-800 transition-colors duration-200 hover:text-ember-600;
+    }
+    .nav-link::after {
+        content: "";
+        @apply absolute -bottom-1.5 left-0 h-[2px] w-0 bg-ember transition-[width] duration-300;
+    }
+    .nav-link:hover::after, .nav-link.active::after {
+        @apply w-full;
+    }
+    .nav-link.active {
+        @apply text-ember-600;
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-top-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}
